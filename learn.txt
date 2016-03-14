@@ -1,0 +1,154 @@
+
+@@EX code:
+<!DOCTYPE html>//DOCTYPE declaration defines the document type to be HTML
+<html>// describes an HTML document
+
+<head>//provides information about the document
+<title>HTML TUtorial</title>// provides a titl for the document
+</head>
+
+<body>//describes the visiable page content
+
+<h1>This is a heading</h1>// describes a heading
+<p>This is a pragraph.</p>// describes the pragraph
+
+</body>
+</html>
+
+@@HTML tags
+<tagname> content </tagname>
+=> come in pair:  <p>(//first tag)  and </p>(//end tag)
+
+@@HTML page Structture
+
+<html>
+	<head>
+		<title> Page title </title>
+	</head>
+	
+	<body>
+		<h1> This is a heading </h1>
+		<p> This is a paragrph. </p>
+		<p> This is another paragraph. </p>
+	</body>
+	//only the <body> area is displayed the browser.
+	
+<html>
+
+@@The DOCTYPE> Declaration(//to khai)
+-helps the browser to display a web page correctly.
+-there are many types on the web.
+-the browser must know both type and version.
+-we can write:
+	<!DOCTYPE html>
+	<!DOCTYPE HTML>
+	<!doctype html>
+	<!doctype Html>
+	
+@@Write HTML using Notepad or TextEdit
+- or write by Microsoft WebMatrix or Sublime Text.
+
+@@HTML Documents
+<!DOCTYPE html>
+begin:   <html>
+end:     </html>
+
+@@HTML Headings
+-defineed with the <h1> to <h6> tags.
+<h1> This is a heading 1.</h1>
+...
+<h6>This is a heading 6.</h6>
+//cac dong theo thu tu nho dan
+
+@@HTML paragraphs
+-define with the <p> tag.
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+@@HTML Links
+-define with <a> tag.
+
+<a href="http://www.w3schools.com">This is a link</a>
+==> the result: This is a link //undelined- click-> view web in display.we has the page in this web.
+// <a href= "link web"> nut dan </a>
+
+@@HTML Images
+-define with <img> tag.
+-source file(src) , alternative text(//van ban thay the)(alt), size(width and height):
+	<img src="w3school.jpg" alt="W3Schools.com" width="104" height="142">
+@@Nested HTML Elements
+-cac thanh phan long vao nhau.
+
+@@Don't forget the End Tag    </ >
+@@Empty HTML Elements
+<br>
+Empty HTML Elements
+HTML elements with no content are called empty elements.
+ -<br> is an empty element without a closing tag 
+(the <br> tag defines a line break).
+ - Empty elements can be "closed" in the opening tag like this: <br />.
+ - HTML5 does not require empty elements to be closed. 
+ - But if you want stricter validation, or you need to make your document 
+readable by XML parsers, you should close all HTML elements.
+
+@@Use Lowercase Tags.
+-HTML not require lowercase tags, but we should use lowercase.
+
+@@HTML Attributes
+-additional information about element.
+-alway specified in the start tag.
+-  name="value" .
+
+@@The lang Attributes
+- be declared in the <html> tag
+-declare the language.
+<DOCTYPE html>
+<html lang="en-US">
+...
+
+@@The title Attributes
+-defined by <p> tag
+between <h1></h1> and paragraph <p></p>
+-ex:
+<h1>About W3Schools</h1>
+<p title="About W3Schools">
+W3School is a web developer's site.
+It provides tutorials and references covering many aspects of web programming.
+</p>
+<p>...</p>
+
+@@The href Attributes
+- defines with the <a> tag.
+<a href="http://www.w3schools.com">This is a link</a>
+
+@@Size Attributes
+-defined with <img> tag with src, width, height.in <body></body>
+<img src="w3school.jpg" width="104" height="142">
+
+@@The Alt Attribute
+- thuoc tinh cung cap van ban de doc man hinh
+-->The HTML alt attribute provides text for screen readers
+-thuoc tinh thay the neu phan tu khong duoc tim thay
+<img src="w3school.jpg"           alt="w3schools.com"        width="104" height="142">
+
+@@Use Quotes ("" or '')
+-ex:
+	<p title='John "ShotGun" Nelson'> "  ' '  "
+	<p title="John 'ShotGun' Nelson"> '  " "  '
+	
+	
+@@EXERCISE 
+$$Headings:
+- use <hr></hr> de them dau gach ngang ngay duoi dau de
+-ex:
+	<h1>About London</h1>
+	<hr>When I know</hr>  // them dau ------- ngay duoi dau de va cau "When I know"
+	
+$$Use <br>
+-<br> co the thay the phan ket thuc cua cu phap, va xuong dong.
+-ex :
+	<p>This is a paragrph.<br>
+	<p>This is another paragraph.<br> 
+
+
+

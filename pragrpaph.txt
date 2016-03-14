@@ -1,0 +1,89 @@
+@@@@@@@@@@@@@HTML paragraph @@@@@@@@@@@@@@@
+-defined by <p>
+- trong <p> </p> HTML k quan tam toi so dau cach, so lan xuong dong,
+ ma tu dong viet cach binh thuong tren 1 dong!!!!
+- don't forget the End tag.
+
+@@HTML line Breaks
+- <br> defines a line break.
+-<br> has no end tag!!!
+<p>This is<br>a pragraph<br> with line break</p>
+==> this is
+	paragraph
+	with line break.
+@@HTML <pre> element
+-defines preformatted text(//van ban dinh san).
+-tu dong xuong dong
+<pre>
+	Tu hon dat set
+	Qua ban tay me
+	Qua ban tay cha
+	Thanh cai bat hoa
+	Nang niu be giu
+</pre>
+==> in lai nguyen doan tho da xuong dong.
+
+
+@@@@@@@@@@@@@HTML Style Attribute@@@@@@@@@@@@@@@
+-style="property: value;"
+	
+@@HTML background Color
+-ex:
+<body style="background-color:lightgrey;">//mau xam
+// cho mau nen cua trang la mau xam
+<h1>This is a heading</h1>
+</body>
+
+@@HTML Text Color 
+ex:
+	<h2 style="color:red;">I am red</h2>
+	<h2 style="color:blue;">I am blue</h2>
+	
+@@HTML Font
+ex:
+	<h1 style="font-family:verdana;">This is a heading</h1>
+	<p style="font-family:courier;">This is paragraph.</p>
+-format font text.
+
+@@HTML Text Alignment
+-defines the horizontal text alignment for an HTML element.
+ex:
+	<h1 style="text-align:center;"Centered Heading</h1>// viet heading chinh giua
+	<p>This is a paragraph.</p>
+
+@@HTML Text Size
+ex:
+	<h1 style="font-size:300%;">This is paragraph</h1>//tang kich thuoc ca trang.
+	<p style="font-size:160%;">This is paragraph.</p>
+	<p style="font-size:50px;">This is paragraph.</p>//tang kich thuoc cua man hinh
+
+@@@@@@@@@@HTML Formatting@@@@@@@@@@@
+ 
+@HTML Formatting elemants
+-HTML styling, using HTML syle attribute.
+-display special types of text.
+
+@HTML Bold and Strong Formating
+#Bold
+-<b> element defines bold text.
+-ex:
+	<p>This text is normal.</p>
+	<p><b>This text is bold</b></p>
+#Strong
+	<p>This text is normal.</p>
+	<p><strong>This text is strong</strong></p>
+@HTML Italic and Emphasized Formatting
+#Italic//nghieng
+-<i> defines italic text.
+	<p>This text is normal.</p>
+	<p><i>This text is italic.</i></p>
+#Emphasized//do mor
+-<em> defines emphasized text.
+	<p>This text is normal.</p>
+	<p><em>This text is emphasized.</em><p>
+@HTML Small Formatting
+-<small> :small text.
+	<h2>HTML <small>Small</small>Formatting</h2> HTML small(//nho hon) Formatting
+@HTML Marked Formatting
+-<mark> : marked or hightlighted text.//dinh nghia or danh dau van ban.
+	<h2>HTML <mark>Marked<mark> Formatting</h2>

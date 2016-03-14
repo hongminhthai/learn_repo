@@ -1,0 +1,23 @@
+@@HTML Headings
+-defined with <h1> to <h6> tags.
+-  h1->most important heading. h6->least important heading.
+- don't use to make text big or bold. It's a heading!
+
+@@HTML Horizontal Rules(duong gach ngang duoi ten dau de)
+- defined with <hr>
+<p>This is paragraph.</p>
+<hr>
+<p>This is paragraph.</p>
+<hr>
+<p>This is paragraph.</p>
+<hr>
+
+@@HTML <head> element
+-has nothing todo with HTML headings.
+
+@@HTML <title> element
+-defines HTML document's title
+-will not displayed in the document, but might be displayed in the brower tab.
+
+
+
