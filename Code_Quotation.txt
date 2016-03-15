@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+	//quotation
+<p>Browsers usually insert quotation marks around the q element.</p>
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+//Browsers usually insert quotation marks around the q element.
+//WWF's goal is to: "Build a future where people live in harmony with nature."
+
+	//block quote
+<p>Browsers usually indent blockquote elements.</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+//Browsers usually indent blockquote elements.
+	//For 50 years, WWF has been protecting the future of nature. 
+	//The world's leading conservation organization, 
+	//WWF works in 100 countries and is supported by 
+	//1.2 million members in the United States and close to 5 million globally.
+
+	//abbreviation	//viet tat	
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>
+//The WHO was founded in 1948.
+//Marking up abbreviations can give useful information to browsers, translation systems and search-engines.
+	
+	//address
+<p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+<address>
+Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+//The HTML address element defines contact information (author/owner) of a document or article.
+//Written by John Doe.
+//Visit us at:
+//Example.com
+//Box 564, Disneyland
+//USA
+	//==> dong nghieng va nho
+	//viet ten nguoi, tac pham -tieu de hinh.
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+//The Scream(nghieng va mor) by Edvard Munch. Painted in 1893.
+
+	//bi-directation - ghi nguoc lai tu trai sang phai
+<p>If your browser supports bi-directional override (bdo), the next line will be written from right to left (rtl):</p>
+<bdo dir="rtl">This line will be written from right to left</bdo>
+<bdo dir="rtl">What a beautiful day!</bdo>
+</body>
+</html>

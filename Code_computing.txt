@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+	//represents keyboard input
+<p>The kbd element represents keyboard input:</p>
+<p><kbd>File | Open...</kbd></p>
+//The kbd element represents keyboard input:
+//File | Open...=> nho va mor.
+
+	//represents sample(mau vat, vat mau) output
+<p>The samp element represents sample output from a computer program:</p>
+<samp>
+demo.example.com login: Apr 12 09:10:17
+Linux 2.6.10-grsec+gg3+e+fhs6b+nfs+gr0501+++p3+c4a+gr2b-reslog-v6.189
+</samp>
+
+	//computer program
+<p>Programming code example:</p>
+<code>
+var x = 5;
+var y = 6;
+document.getElementById("demo").innerHTML = x + y;
+</code>
+//==> dung code cach hang cung 1 dong
+//Programming code example:
+//var x = 5; var y = 6; document.getElementById("demo").innerHTML = x + y;
+//=====>de chia dong dung <pre></pre> boc phia ngoai doan code.
+
+	//variables  -bien
+<p>Einstein wrote: <var>E</var> = <var>m</var><var>c</var><sup>2</sup>.</p>
+//Einstein wrote: E = mc2.//=>"2" la chi so tren
+</body>
+</html>
+
+
+
+
+

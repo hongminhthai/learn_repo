@@ -1,0 +1,176 @@
+@@@@@@@@@@@HTML Quotation and Citation Element@@@@@@@@@@@@//dau ngoac va trich dan
+
+@@@@@@HTML <q> for short Quotations
+-<q> : defines a short qutation
+	<p>WWF goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+@@@@@@HTML <blockquote> for Long quotation
+-<blockquote> : defines a quote section.//phan trich dan.
+-ex:
+	<p>Here is a quote from WWF's website:</p>
+	<blockquote cite="http://www.worldwildlife.org/who/index.html">
+	For 50 years, WWF has been protecting the future of nature.
+	the world's leading conversation organization,
+	WWF work in 100 countries and is supported by
+	1.2 milion members in the United States and
+	close to 5 milion globally.
+	</blockquote>
+@@@@@@@@HTML <abbr for Abbreviations// tu viet tat.
+- <abbr> : defines an abbreviation or an acronym//ten viet tat
+	<p>The <abbr title="World Health Orgnization">WHO </abbr> was found in 1948.</p>
+@@@@@@@@HTML <address> for contact information
+- <address> :defines contact information(author/owner) of a document or article//bai bao
+-ex:
+	<address>
+	Written by John Doe.<br>//xuong dong
+	visit us at:<br>
+	Example.com<br>
+	Box 564, Disneyland<br>
+	USA
+	</address>
+
+@@@@@@@HTML <cite> for Work title
+-<cite> : defines title of work.//ten cua tac pham tranh anh, hinh 123, ... nghieng mor.
+	<p><cite>The Scream</cite> by Edvard Much. Painted in 1893.</p>
+
+@@@@@@@HTML <bdo> for Bi-Directional Override
+- <bdo> : defines bidirectional override
+	<bdo dir="rtl">This text will be written from right to left</bdo>
+
+@@@@@@@@@@@@@@@HTML computer code element@@@@@@@@@@@@@@@
+
+@@@@@@@HTML Code formatting
+-<kbd>, <samp>, <code>
+
+@@@@@@@HTML <kbd> for Keyboard input//nhap tu ban phim
+- <kbd> :defines keyboard input.
+	<kbd>File | open...</kbd>
+
+@@@@@@@HTML <samp> for computer output
+-<samp> : defines sample output from a computer program.
+-ex: 
+	<samp>
+	demo.example.com login: Apr 12 09:10:17
+	Linux 2.6.10-grsec+gg3+e+fhs6b+nfs+gr0501+++p3+c4a+gr2b-reslog-v6.189
+	</samp>
+
+@@@@@@HTML <code> for computer code
+-<code> :defines apiece of programming code.//code k chia khoang trang va dong chia.
+-ex:
+	<code>
+	var x=5;
+	vr y=6;
+	document.getElementById("demo").innerHTML = x+y;
+	</code>
+- de dong chia can ta dung <pre>
+-ex:
+	<pre>
+	<code>
+	var x=5;
+	var y=6;
+	document.getElementById("demo").innerHTML = x+y;
+	</code>
+	</pre>
+
+@@@@@@@HTML <var> for variables
+- <var> : defines a variable.
+	<p>Einstein wrote: <var>E</var> = <var>m</var><var>c</var><sup>2</sup>.</p>
+
+@@@@@@@@@@@@@@@@HTML comment@@@@@@@@@@@
+	<!--  ...   --> 
+@@@@@@@HTML comment tags
+	<!--Write your comment here-->
+	<!-- Comments are not displayed in the browser -->
+@@@@@@@@@@@@@@HTML Style CSS@@@@@@@@@@@@@@@@@
+
+@@@@@@Inline Styling (inline CSS)
+<h1 style="color:blue;">This is a Blue Heading</h1>//chu mau xanh
+@@@@@@Internal Styling (internal CSS)
+-ex: 
+	<head>
+	<style>
+	body 	{background-color:lightgrey;}
+	h1	{color:blue;}
+	p	{color:green;}
+	</style>
+	</head>
+@@@@@@@@@@@@HTML Links@@@@@@@@@@@@@
+@@@@@@@@HTML links
+-is a hyperlinks.
+-Syntax:
+	<a href="url">link text</a>
+//"link text" will bee a text, image, ect...
+-ex:
+	<p><a href="http://www.w3schools.com/html/">Visit our HTML tutorial.</a></p>
+
+@@@@@@@@@Local Link
+<a href="html_image.asp">HTML image</a>
+//hien thi trang anh cua website, k co duong dan khac nua.
+
+@@@@@@@@@@The target attribute
+<a href="http://www.w3schools.com/" target="_blank">Visit W3Schools</a>
+//mo link tren mot trang moi
+
+
+____target_________: 
+	+ _blank: mo trong trang tab moi.
+	+ _self : mo link trong cung mot khung no lien ket
+	+ _parent: mo tai lieu lien ket trong khung me
+	+ _top :  mo link trong khung du cua trang//thay the luon trang HTML dang lam
+		<p>Locked in a frame? <a href="http://www.w3schools.com/html/" target="_top">Click here!</a></p>
+	+ framename : mo link trong mot khung hinh.
+
+@@@@@@@@Image as link//hinh dan duong link
+<a href="default.asp"><img src="smiley.gif" alt="HTML tutarial" style="width:42px;height:42px; border:0"></a>
+//border:0  : hien thi duong vien xung quanh hinh anh.
+
+<a href="http://www.w3schools.com"><img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0"></a>
+
+//link khong co dau gach chan
+<p><a href="http://www.w3schools.com/html/" style="text-decaration:none">Visit our HTML tutorial</a></p>
+@@@@@@@@create a bookmark.
+//hien thi danh dau danh muc: vi du chon 1 chuong sach tai muc luc-danh dau-click: dan den chuong do.
+-ex: 
+	<h2 id="tips">Userful Tips Section</h2>
+	<p><a href="#tips">Visit the Userful Tips Section</a></p>
+	or
+	<p><a href="html_tips.html#tips">Visit the Userfull Tps Section</a></p>
+
+@@@@@@@@@@@@@@@@@HTML Images@@@@@@@@@@@@@@@@
+@@@@@@@HTML images syntax
+- <img> defines images.
+	<img src="url" alt="some_text">
+
+@@@@@@@@The alt Attribute
+-specifies an alternate text for an image, if the image annot be displayed.
+-if a browser cannot find an image, it wil display the alt text:
+<img src"wrongname.gif" alt="HTML5 Icon" style="width:128px; height:128px;">
+
+@@@@@@@@Use style
+-we should use style//de bao dam kich thuoc hinh dep.
+<head>
+<style>
+img { 
+    width:100%; 
+}
+</style>
+</head>
+
+@@@@@@@@Images in another folder
+<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+@@@@@@@@Images on another web
+<img src="http://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+@@@@@@@@Animated images
+<img src="programming.gif" alt="Computer Man" style="width:48px; height:48px;">
+@@@@@@@@Using an images as a link
+-ues <a> with <img>
+<a href="default.asp><img src="smiley.gif" alt="HTML tutorial" style="width:42px; hieght:42px;border:0"></a>
+@@@@@@@@Image floating
+-using style="float:......
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;"></p>
+//hinhf xuat hien ben trai dong chu. 
+
+
+@@@@@@@@@@@@@@@@@HTML Tables@@@@@@@@@@@@@@@@
+
+
+

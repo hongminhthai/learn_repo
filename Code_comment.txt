@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	//defines color : background, h1, p.
+<style>
+body 	{background-color:lightgrey;}
+h1	{color:blue;}
+p	{color:green;}
+</style>
+</head>
+<body>
+	//Heading color
+<h1 style="color:blue;">This is a Blue Heading</h1>
+
+	//comment
+<!-- This is a comment -->
+<p>This is a paragraph.</p>
+<!-- Comments are not displayed in the browser -->
+//This is a paragraph.
+//tuong tu nhu /* */ or //
+
+
+
+</body>
+</html>
+
+
+<!--@@@@@@@@@@@@@@@@@ Code HTML Link @@@@@@@@@@@@@@ -->
+
+<!DOCTYPE html>
+<html>
+<body>
+	//link
+<p><a href="http://www.w3schools.com/html/">Visit our HTML tutorial</a></p>
+
+	//link khong co dau gach chan
+<p><a href="http://www.w3schools.com/html/" style="text-decaration:none">Visit our HTML tutorial</a></p>
+
+	//local link
+<p><a href="http://www.w3.org/">W3C</a> is a link to a website on the World Wide Web.</p>
+//dan den dia chi tren www
+<p><a href="html_images.asp">HTML Images</a> is a link to a page on this website.</p>
+//dan den hinh anh trang web==> co the bo qua http://.....
+
+	//target link - mo linh trong 1 tab moi
+<p><a href="http://www.w3schools.com/" target="_blank">Visit W3schools</a></p>
+
+	//target link - mo linh thay the trang HTML
+<p>Locked in a frame? <a href="http://www.w3schools.com/html/" target="_top">Click here!</a></p>
+
+	//bookmark
+<p><a href="#C4">Jump to Chapter 4</a></p>//duong link tai "Jump to Chapter 4"-nhay den chuon 4
+<h2 id="C4">Chapter 4</h2>
+<p>This chapter explains ba bla bla</p>
+<h2>Chapter 5</h2>
+<p>This chapter explains ba bla bla</p>
+
+
+</body>
+</html>
+
+
+<!--@@@@@@@@@@@@@@@@@ Code HTML Images @@@@@@@@@@@@@@ -->
+
+
+<!DOCTYPE html>
+<html>
+	
+	//use style
+<head>
+<style>
+img { 
+    width:100%; 
+}
+</style>
+</head>
+<body>
+
+<h2>Spectacular Mountain</h2>
+<img src="pic_mountain.jpg" alt="Mountain View" style="width:304px;height:228px;">
+
+	//display the images if browser cannot display
+<p>If a browser cannot find an image, it will display the alternate text:</p>
+<img src="wrongname.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+</body>
+</html>
+
+
+
