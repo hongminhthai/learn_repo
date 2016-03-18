@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- HTML form -->
+<!-- Tao cac o nhap -->
+<form>
+<!-- de su dung submit -->
+<form action="action_page.php">
+
+<!-- tao mot form trong message nhap chu thich -->
+  <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+  <br>
+
+<!-- dat form trong mot khung va chu thich -->
+  <fieldset>
+    <legend>Personal information:</legend>
+<!-- select-bang so xuong de lua chon danh muc -->
+<!-- binh thuong, o select hien thi gia tri dau tien trong dah muc-->
+  <select name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+
+ <!-- xac dinh gia tri ban dau trong o lua chon la "Fiat"
+    <option value="fiat" selected>Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+
+
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+
+<!-- nhap gia tri san ngay trong o-->
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey">
+<!-- type="text"  : xac kinh kieu du lieu trong o -->
+<!-- type="password"  : xac kinh kieu password -->
+  <br>
+
+  <input type="text" name="firstname" value="Mickey"  readonly>
+<!-- readonly  : gia tri trong o khong the thay doi -->
+
+<input type="text" name="firstname" value="Mickey"  disabled>
+<!-- disabled  : khong the click hay nhap va o co disable -->
+
+<input type="text" name="firstname" value="Mickey"  size="40">
+<!--size="40"  : xac dinh do dai cua o nhap -->
+
+<input type="text" name="firstname" value="Mickey"  maxlenght="10">
+<!--maxlenght="10"  : xac dinh do dai cua chu nhap trong o -->
+  Last name:<br>
+  <input type="text" name="lastname">
+    <br><br>
+<!-- tao o submit -->
+  <input type="submit" value="Submit">
+</form>
+<p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
+
+<!-- Radio button -->
+<!-- form voi o lua chon 1 trong nhieu cai -->
+<form>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other  
+</form> 
+
+<!--tao o buttong, click-hien gia tri muon xuat -->
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+<!-- Tao o output -->
+  <output name="x" for="a"></output>
+
+</body>
+</html>

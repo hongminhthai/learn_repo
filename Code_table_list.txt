@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<!-- Day heading ve dau o -->
+th{
+	text-align:left;
+}
+</style>
+</head>
+<body>
+<!-- HTML tables -->
+
+<!-- Tao table khong co heading --> 
+<table style="width:100%">
+
+<!--Tao table nam trong border-bang co dong ke-->
+<table border="1 style="width:100%">
+
+<!-- tao chu thich, tieu de bang -->
+<caption>Monthly savings</caption>
+
+<!-- Tao heading cho bang, in dam nam giua o -->
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>		
+    <th>Points</th>
+  </tr>
+
+<!-- Gop cac o thuoc 1 dong trong bang -->
+  <tr>
+    <th colspan ="2">Name</th>  <!-- gop 2 o trong 1 dong -->
+    <th>Points</th>
+  </tr>
+
+<!-- Gop cac o thuoc 1 cot trong bang -->
+  <tr>
+    <th rowspan ="2">Name</th>  <!-- gop 2 o trong 1 cot -->
+  </tr>
+
+<!-- Tao bang don gian -->
+  <tr>  <!--tao dong 1 -->
+    <td>Jill</td>  <!--Cot 1-->
+    <td>Smith</td> <!--cot 2-->		
+    <td>50</td>	   <!--cot 3-->	
+  </tr>
+  <tr>	<!-- tao dong 2 -->
+    <td>Eve</td>
+    <td>Jackson</td>		
+    <td>94</td>
+  </tr>
+  <tr>  <!--tao dong 3 -->
+    <td>John</td>
+    <td>Doe</td>		
+    <td>80</td>
+  </tr>
+</table>
+
+
+<!-- HTML List -->
+
+<!-- tao list don gian, k danh stt-->
+
+<ul>  <!-- dau mac dinh -->
+<!-- chinh sua dau truoc moi dong -->
+<ul style="list-style-type:square">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+
+<!--tao list co stt-->
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol> 
+
+<!-- hoac -->
+<ol type="1">
+
+<!-- Tao list theo alp -->
+<ol type="A">
+<ol type="a">
+
+<!-- Tao list theo so la ma-->
+<ol type="I">
+<!-- hoac -->
+<ol type="i">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+
+<!-- list gach y bang <dl>-->
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+<!-- list gach y bang <ul>-->
+<ul>
+  <li>Coffee</li>
+
+  <li>Tea
+    <ul>
+    <li>Black tea</li>
+    <li>Green tea</li>
+    </ul>
+  </li>
+
+  <li>Milk</li>
+</ul>
+
+</body>
+</html>
