@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<!--  CSS -->
+<!-- dinh dang tat ca thanh phan -->
+#para1 {  <!-- tao id -->
+	color: red;
+	text-align: center;
+}
+
+p {
+    text-align: center;
+    color: red;
+}
+
+.center {
+    text-align: center;
+    color: red;
+}
+
+p.center {
+    text-align: center;
+    color: red;
+}
+
+p.large {
+    font-size: 300%;
+}
+
+
+<!-- CSS Background -->
+<!-- xac dinh mau nen body -->
+body {
+    background-color: linen;
+}
+
+<!-- xac dinh mau nen body -->
+body{
+	background-image: url("paper.gif");
+}
+<!-- dinh dang the div-->
+<!-- the div vo the khong can di voi cac the khac -->
+div{
+	background-color: lightblue;
+	<!-- de hinh anh tran man hinh- lap theo chieu ngang, k bi lap-->
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;<!-- lap theo chieu doc-->
+	<!-- hinh anh chi hien thi 1 lan -->
+	background-repeat: no-repeat;
+	<!-- xac dinh vi tri hinh -->
+	background-position: right top;
+	<!-- xac dinh le cua doan-->
+	margin-right: 200px;<!-- le ben phai thut vao 20px-->
+	<!-- co dinh hinh anh-->
+	background-attachment: fixed;
+<!-- co the viet tat ca cac dinh dang cua background vao mot dong de rut ngan-->
+	background: #ffffff url("im_tree.png") no-repeat right top;
+}
+
+<!-- CSS Bprder -->
+<!-- tao vien chio doan: gach, gach noi,...-->
+p.dotted {
+	<!-- kieu vien, voi moi kieu co cach xac dinh do rong, mau khac nhau -->
+	border-style: dotted;
+	<!-- do rong -->
+	border-width: 5px;   <!-- luon di voi border-style-->
+	border-color: green; <!-- luon di voi border-style-->
+	<!-- kieu border theo gach doc, ngang -->
+	border-style: dotted solid;
+
+
+}
+
+<!-- CSS margin -->
+<!-- dinh dang khang cach cac khoang trang giua cac doan trong trang -->
+p.ex {
+	border: 1px solid red;
+	margin-top: 100px;    <!-- khoang cach voi doan phia tren -->
+	margin-bottom: 100px; <!-- khoang cach voi doan phia duoi -->
+	margin-left: 80px;    <!-- khoang cach voi doan ben trai -->
+	margin-right: 150px;  <!-- khoang cach voi doan ben phai -->
+<!-- co the xac dinh thuoc tinh margin trong mot dong: tren, duoi, phai, trai -->
+	margin: 100px 150px 100px 80px;
+	<!-- width :300px; xac dinh thuoc tinh margin auto, tu dong can le o giua
+	//chi xac dinh kc phia tren -->
+	margin: auto; 
+
+}
+<!-- CSS padding, khoang cach tron gphia trong border -->
+p.padding{
+ 	border: 1px solid red;
+	background-color: yellow;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	<!-- rut ngan code -->
+	padding: 50px 30px 50px 80px;
+
+}
+<!-- CSS inherit, thuoc tinh cha con -->
+div.container {
+    border: 1px solid red;
+    margin-left: 100px;
+}
+p.one {
+    margin-left: inherit;
+}
+<!-- CSS Height/width -->
+div{
+	<!-- do dai lon nhat -->
+	max-width: 500px;
+	height:100px;
+}
+
+<!-- CSS Text -->
+body {
+	<!-- body viet nhu binh thuong -->
+	color: blue;
+	text-align: justify;      <!-- can deu 2 ben -->
+	text-decoration: none;    <!-- khong gach chan chu dung <a href=...>-->
+	text-transform: upercase; <!-- cac kieu chu hoa, thuong -->
+	text-indent: 50px;        <!-- cach dau dong -->
+	letter-spacing: 3px;      <!--Khoang cach giua cac ki tu -->
+	line-height: 0.8;         <!--Khoang cach giua cac dong -->
+	direction: rtl;		  <!-- huong van ban tu phai sang trai -->
+	word-spacing: 10px;	  <!-- khoang cach giua cac tu trong cau -->
+}
+</style>
+</head>
+<body>
+
+<!-- set mau chu ngay trong body -->
+<h1 style="color:blue;margin-left:30px;">This is a heading.</h1>
+<!-- The div bao tung doan trong trang -->
+<div class="conainer">
+	<p class="one">This is tag in tag div. </p>
+	<p>This is tag in tag div. </p>
+</div>
+
+<h1 class="center">This heading will not be affected</h1><!-- xac dinh voi mau p.center -->
+<p id="para1">Hello World!</p>
+<p>This paragraph is styled with CSS.</p>
+
+<p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p> 
+</body>
+</html>
